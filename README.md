@@ -1,4 +1,4 @@
-# rlcimgui_setup.bat
+# librlcimgui_setup.bat
 A batch file for setting up a raylib + rlimgui + cimgui project
 
 ## Usage
