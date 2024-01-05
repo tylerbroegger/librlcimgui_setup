@@ -32,9 +32,9 @@ cd ../../include/ && cp * ../../src/include
 
 cd extras && cp * ../../../src/include/extras
 
-cd ../../../src/ && echo g++ main.c -Wall -Wextra -O2 -I include/ -L lib/ -lraylib -lcimgui -lopengl32 -lgdi32 -lwinmm -lkernel32 -o bin/game.exe >> compile.bat
+cd ../../../src/ && echo g++ main.c -Wall -Wextra -O2 -I include/ -L lib/ -lraylib -lcimgui -lopengl32 -lgdi32 -lwinmm -lkernel32 -o bin/game.exe >> build.bat
 
-git clone https://github.com/tylerbroegger/rlcimgui_main.git &&  cp rlcimgui_main/main.c ./ && rd /s /q rlcimgui_main
+git clone https://github.com/tylerbroegger/rlcimgui_example &&  cp rlcimgui_example/main.c ./ && rd /s /q rlcimgui_example
 
 
 
